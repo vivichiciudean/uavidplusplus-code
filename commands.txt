@@ -1,0 +1,7 @@
+
+conda env create -f env.yml 
+
+conda activate uavidpp
+
+cd ./code
+python model_train.py
