@@ -1,0 +1,13 @@
+tqdm
+huggingface_hub
+pandas
+datasets
+gradio
+transformers
+contourpy
+matplotlib
+numpy
+opencv-python
+scipy
+scikit-learn
+albumentations
