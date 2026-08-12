@@ -87,9 +87,13 @@ uavidplusplus-code/
 git clone https://github.com/vivichiciudean/uavidplusplus-code.git
 cd uavidplusplus-code
 
-# Python 3.10+ recommended
-conda env create -f env.yml
+# Python 3.10+ recommended. Make sure CUDA is installed with GPU support.
+conda create -n uavidpp python=3.10 -y
 conda activate uavidpp
+conda install -c conda-forge pyarrow -y
+python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+python -m pip install -r req.txt
+
 
 # Complete Step 1: Download the DINOv3 models
 cd ./models
