@@ -253,9 +253,9 @@ This code and the UAVid++ annotations are released under the **Creative Commons 
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={UAVid++: Higher-Quality Labels and Expanded Semantic Taxonomy for Aerial Semantic Segmentation}, 
   year={2026},
-  volume={},
+  volume={64},
   number={},
-  pages={1-1},
+  pages={5634816-5634816},
   doi={10.1109/TGRS.2026.3715191}}
 ```
 
