@@ -28,9 +28,9 @@ default_tile_w = 1088   # width of tile
 
 ignore_value = 255     # padding (255,255,255) for masks, and (0,0,0) for images
 
-#TODO - se aplica pe TRAIN/VAL
-##TODO (by you)
-### APPLY THIS SCRIPT ON flat_uavid_train and flat_uavid_val (don`t forget to update the output dir)
+
+### APPLY THIS SCRIPT ON flat_uavid_train AND flat_uavid_val (don`t forget to update the output dir)
+### IMPORTANT: Do not apply this to flat_uavid_test. Instead, simply rename the "flat_uavid_test" folder to "test".
 
 def parse_args():
     parser = argparse.ArgumentParser()
